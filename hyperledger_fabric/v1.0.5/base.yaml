@@ -144,7 +144,7 @@ services:
     command: bash -c 'sleep 10; node main.js'
 
   mysql-base: # mysql service
-    image: mysql:8.0
+    image: mysql:8.0.3
     restart: always
     expose:
       - "3306"
